@@ -1,4 +1,6 @@
-== README
+Stuk Recipe for 2 Sided Marketplace
+https://stuk.io/en/courses/2-sided-marketplace
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
