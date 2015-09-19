@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/pickup/:guid', to: 'transactions#pickup', as: :pickup
+  post '/buy/:slug', to: 'transactions#create', as: :buy
   get 'dashboard' => 'pages#dashboard'
   resources :books
   devise_for :users
